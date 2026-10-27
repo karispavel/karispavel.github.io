@@ -1,0 +1,74 @@
+body {
+    background-color: #fdf6ee;
+    color: #333333;
+    font-family: Georgia, serif;
+    margin: 0px;
+}
+
+h1, h2, p, a {
+    position: absolute;
+    margin: 0px;
+}
+
+.title {
+    top: 20px;
+    left: 40px;
+    font-size: 40px;
+    color: #8a3b12;
+}
+
+.tagline {
+    top: 80px;
+    left: 40px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.intro {
+    top: 125px;
+    left: 40px;
+    width: 640px;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.heading1, .heading2, .heading3, .heading4 {
+    font-size: 22px;
+    color: #8a3b12;
+}
+
+.blurb1, .blurb2, .blurb3, .blurb4 {
+    font-size: 15px;
+    width: 280px;
+}
+
+.link1, .link2, .link3, .link4 {
+    font-size: 16px;
+    color: #1a5fb4;
+}
+
+.heading1 { top: 280px; left: 40px; }
+.blurb1   { top: 315px; left: 40px; }
+.link1    { top: 370px; left: 40px; }
+
+.heading2 { top: 280px; left: 400px; }
+.blurb2   { top: 315px; left: 400px; }
+.link2    { top: 370px; left: 400px; }
+
+.heading3 { top: 440px; left: 40px; }
+.blurb3   { top: 475px; left: 40px; }
+.link3    { top: 530px; left: 40px; }
+
+.heading4 { top: 440px; left: 400px; }
+.blurb4   { top: 475px; left: 400px; }
+.link4    { top: 530px; left: 400px; }
+
+.footer {
+    top: 610px;
+    left: 40px;
+    font-size: 14px;
+}
+
+.footer a {
+    position: static;
+}
